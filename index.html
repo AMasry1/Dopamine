@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Image/icon.png">
+    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/media.css">
+    <title>3d Desginer - الصفحة الرئيسية</title>
+</head>
+
+<body>
+    <header>
+        <nav class="reveal_op">
+            <a href="https://discord.gg/3mp"><img src="/Image/icon.png" alt="img" width="70"></a>
+            <a class="hide berger_icon" href="#" onclick="menu_open()"><i class="fa-solid fa-bars"></i></a>
+            <ul>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">الصفحة الرئيسية</a></li>
+
+            </ul>
+            <ul>
+                <!-- Back-End Note : If user is logined Hide this -->
+                <li><a class="button" href="login.html">تسجيل دخول <i class="fa-solid fa-door-open"></i></a></li>
+                <!-- Back-End Note : If user is logined show this -->
+                <li><a href="" class="user">
+                        <img src="https://i.ibb.co/YjHwGSz/logo.png"
+                            alt="img">
+                        <span>3d Desginer</span>
+                    </a></li>
+            </ul>
+            <div class="hide berger_menu">
+                <div class="menu">
+                    <button class="close" onclick="menu_close()">إغلاق <i class="fa-solid fa-angle-right"></i></button>
+                    <a href="#">الصفحة الرئيسية</a>
+                    <a href="#">المنتجات</a>
+
+                    <!-- Back-End Note : If user is logined Hide this -->
+                    <a href="#">تسجيل دخول</a>
+                </div>
+                <!-- Back-End Note : If user is logined show this -->
+                <div class="berger_menu_user hide">
+                    <div class="user_berger">
+                        <!-- Back-End Note : Discord Avatar -->
+                        <img src="https://i.ibb.co/YjHwGSz/logo.png"
+                            width="50" alt="img">
+                        <!-- Back-End Note : Discord Username -->
+                        <span>3d desginer</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-gear"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="text reveal_hero">
+                <h1 class="bold">مابات ولا في <span class="gard">الخيال</span></h1>
+                <p class="small">هل تريد مابات لسيرفرك او الان في سرفرك   نوفر مايات بسعر<br>يكاد ان
+                    يكون الأرخص في السوق</p>
+            </div>
+            <div class="buttons reveal_hero">
+                <a href="#" class="button">تسجيل دخول</a>
+                <a href="https://discord.gg/3mp" class="sub_button">ديسكورد</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="title reveal_hero">
+            <h1 class="gard">لماذا نحن؟</h1>
+        </div>
+        <div class="grid reveal">
+            <div class="box">
+                <i class="fa-regular fa-star box_icon"></i>
+                <h1 class="bold">منتجات مميزة</h1>
+                <p class="small">يسعدنا أن نقدم لكم تشكيلة مميزة من منتجاتنا الرائعة، التي تجمع بين الجودة العالية</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-coins box_icon"></i>
+                <h1 class="bold">أسعار مثالية</h1>
+                <p class="small">اسعرنا من الافضل في السوق ويعتمد ترتيبنا للأسعار على الجودة والرخص</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-headset box_icon"></i>
+                <h1 class="bold">دعم فني</h1>
+                <p class="small">دعمنا الفني يعمل على حل جميع مشاكلك فلا تتردد في طلب المساعدة</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="title reveal_hero">
+            <h1 class="gard">منتجات مقترحة</h1>
+        </div>
+        <div class="grid reveal">
+            <div class="box">
+                <img src="https://i.ibb.co/KNZWtLV/banner.png" alt="avatar">
+                <div class="text">
+                    <h1 class="bold">مابات بكج</h1>
+                    <p class="small">دعمنا الفني يعمل على حل جميع مشاكلك فلا تتردد في طلب المساعدة</p>
+                    <a href="" class="sub_button"><i class="fa-solid fa-cart-shopping"></i> شراء</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://i.ibb.co/KNZWtLV/banner.png" alt="avatar">    
+                <div class="text">
+                    <h1 class="bold">دعم فني</h1>
+                    <p class="small">دعمنا الفني يعمل على حل جميع مشاكلك فلا تتردد في طلب المساعدة</p>
+                    <a href="" class="sub_button"><i class="fa-solid fa-cart-shopping"></i> شراء</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://i.ibb.co/KNZWtLV/banner.png" alt="avatar">
+                <div class="text">
+                    <h1 class="bold">دعم فني</h1>
+                    <p class="small">دعمنا الفني يعمل على حل جميع مشاكلك فلا تتردد في طلب المساعدة</p>
+                    <a href="" class="sub_button"><i class="fa-solid fa-cart-shopping"></i> شراء</a>
+                </div>
+            </div>
+            <div class="language-selector">
+                <button onclick="setLanguage('ar')">عربي</button>
+                <button onclick="setLanguage('en')">English</button>
+            </div>            
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="faq-container reveal">
+            <h1 class="bold">الأسئلة الشائعة</h1>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">هليمكنني ان احصل
+                            على ضمان بعد الشراء وما هي المدة ؟</span><span aria-hidden="true"><i
+                                class="fa-solid fa-plus icon"></i></span></button>
+                    <div class="accordion-content">
+                        <p>نعم , متجرنا يقدم خدمة ضمان دائم في فترة استخدامك وعلى حسب مدة الشراء</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title"> ماهيمدة استلام
+                            الطلب ؟ </span><span aria-hidden="true"><i
+                                class="fa-solid fa-plus icon"></i></span></button>
+                    <div class="accordion-content">
+                        <p>لا يوجد مدة معينة لكن كحد اقصى 24 ساعة</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">هل
+                            يمكنني استرداد اموالي بعد عملية الشراء ؟ </span><span aria-hidden="true"><i
+                                class="fa-solid fa-plus icon"></i></span></button>
+                    <div class="accordion-content">
+                        <p>لا يمكننا استرجاع اموالك في حال تمت عملية الشراء وحصولك على الخدمة</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">هل
+                            يمككني استرجاع اموالي في حال تأخر تسليم طلبي ؟ </span><span aria-hidden="true"><i
+                                class="fa-solid fa-plus icon"></i></span></button>
+                    <div class="accordion-content">
+                        <p>فقط في حال مرور 24 ساعة من عملية الدفع ( يحق لك استرداد اموالك في حال تأخر تسليم
+                            طلبك, ولا يحق لك اخذ الطلب في حال تم استرداد اموالك )</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="reveal_op">
+        <img src="image/icon.png" alt="img" width="100">
+        <h1 class="bold">مابات ولا في <span class="gard">الخيال</span></h1>
+        <p class="small">هل تريد مابات لسيرفرك او  الان في متجر  ثر دي ستور نوفر مابات بسعر<br>يكاد ان
+            يكون الأرخص في السوق</p>
+        <div class="links">
+            <a href="https://www.instagram.com/" class="link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://discord.gg/3mp" class="link"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://twitter.com/" class="link"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.youtube.com/" class="link"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="copyright">
+            <p class="small">جميع الحقوق محفوظة لمتجر  دوبامين ستور ©</p>
+        </div>
+    </footer>
+</body>
+<script>
+    function reveal() {
+        var reveal_img = document.querySelectorAll(".reveal_op");
+        var reveals = document.querySelectorAll(".reveal");
+        var reveal_text = document.querySelectorAll(".reveal_hero");
+
+
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 90;
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            } else {
+                reveals[i].classList.remove("active");
+            }
+        }
+        for (var i = 0; i < reveal_img.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveal_img[i].getBoundingClientRect().top;
+            var elementVisible = 90;
+            if (elementTop < windowHeight - elementVisible) {
+                reveal_img[i].classList.add("active");
+            } else {
+                reveal_img[i].classList.remove("active");
+            }
+        }
+
+        for (var i = 0; i < reveal_text.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveal_text[i].getBoundingClientRect().top;
+            var elementVisible = 90;
+            if (elementTop < windowHeight - elementVisible) {
+                reveal_text[i].classList.add("active");
+            } else {
+                reveal_text[i].classList.remove("active");
+            }
+        }
+    }
+    window.addEventListener("scroll", reveal);
+    reveal();
+</script>
+<script>
+    const menu = document.querySelector(".berger_menu")
+    function menu_open() { menu.style.right = "0"; menu.style.opacity = "1"; menu.style.position = "fixed"; }
+    function menu_close() { menu.style.right = "-50%"; menu.style.opacity = "0"; }
+</script>
+<script>
+    const items = document.querySelectorAll(".accordion button");
+
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+        const icon = this.querySelector(".icon");
+
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+            const itemIcon = items[i].querySelector(".icon");
+            itemIcon.classList.add("fa-plus");
+            itemIcon.classList.remove("fa-minus");
+        }
+
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+            icon.classList.add("fa-minus");
+            icon.classList.remove("fa-plus");
+        }
+    }
+
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+    const translations = {
+        ar: {
+            home: "الصفحة الرئيسية",
+            products: "المنتجات",
+            why_us: "لماذا نحن؟",
+            recommended_products: "منتجات مقترحة",
+            faq: "الأسئلة الشائعة",
+            question_1: "هل يمكنني أن احصل على ضمان بعد الشراء وما هي المدة؟",
+            answer_1: "نعم , متجرنا يقدم خدمة ضمان دائم في فترة استخدامك وعلى حسب مدة الشراء",
+            // Add all other translations for Arabic...
+        },
+        en: {
+            home: "Home",
+            products: "Products",
+            why_us: "Why Us?",
+            recommended_products: "Recommended Products",
+            faq: "FAQ",
+            question_1: "Can I get a warranty after purchase and for how long?",
+            answer_1: "Yes, our store offers a permanent warranty during your usage period, depending on the purchase duration.",
+            // Add all other translations for English...
+        }
+    };
+
+    function setLanguage(language) {
+        // Change all text based on the selected language
+        document.querySelector('.home-link').textContent = translations[language].home;
+        document.querySelector('.products-link').textContent = translations[language].products;
+        document.querySelector('.why-us-title').textContent = translations[language].why_us;
+        document.querySelector('.recommended-products-title').textContent = translations[language].recommended_products;
+        document.querySelector('.faq-title').textContent = translations[language].faq;
+
+        document.querySelector('.faq-question-1').textContent = translations[language].question_1;
+        document.querySelector('.faq-answer-1').textContent = translations[language].answer_1;
+
+        // Add similar lines for all other text elements that need translation
+    }
+
+    // Set default language to Arabic (you can change this to 'en' if English should be the default)
+    setLanguage('ar');
+</script>
+<script src="https://kit.fontawesome.com/9ad53fb8b6.js" crossorigin="anonymous"></script>
+
+</html>
